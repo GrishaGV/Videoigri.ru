@@ -1,0 +1,65 @@
+body {
+    font-family: cursive;
+}
+
+h1 {
+    color: white;
+}
+
+h1:hover {
+    color: black;
+    transition: all 0.5s linear;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.games1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.games1 img {
+    margin: 5px;
+}
+
+
+img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+}
+
+main, footer {
+    background-color: #808080	;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+img {
+    width: 420px;
+    height: 370px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
